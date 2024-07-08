@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000000;
+    color: #f6f6f6;
+    height: 100vh;
+
+    /* Todos esto centran todo el contennido al meido de a pagina  */
+    box-sizing: border-box;
+    justify-content: center; 
+    align-items: center;    
+    margin: 10%;           /*  Este se ajusta segun se nesecite el margen   */  
+}
+
+
+
+.titulo-a-destacar{
+    color: #22d4fd;
+}
+
+.presentacion-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion-contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Texto-inicio{
+    font-family: "Krona One", sans-serif;
+    font-size: 35px;
+}
+
+.Texto-parrafo{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+.botones{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Enlace_link_1, .Enlace_link_2 {
+    width: 280px;
+    background-color: #22d4fd;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Enlace_link_1 {
+    margin-right: 20px; /* Espacio entre los botones */
+}
+
+.Imagen {
+    margin-left: 30px; /* Espacio alrededor de la imagen */
+    filter: brightness(0.85)
+}
