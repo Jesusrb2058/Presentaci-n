@@ -32,7 +32,7 @@ nav {
 
 .nav_menu {
     font-family: var(--Fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
@@ -54,14 +54,14 @@ nav {
 
 
 .Texto-inicio {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--Fuente-Kroma-One);
 }
 
 
 
 .Texto-parrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--Fuente-Montserrat);
 }
 
@@ -71,9 +71,33 @@ nav {
 .footer {
     color: var(--color-primario);
     background-color: var(--color-secundario);
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     font-family: var(--Fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+.Imagen{
+    width: 50%;
+}
+
+@media(max-width:1200px) {
+    .header{
+        padding: 10%;
+    }
+
+    .nav{
+        justify-content: center;
+    }
+    .presentacion-container{
+        flex-direction:column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion-contenido{
+        width: auto;
+    }
+
+
 }

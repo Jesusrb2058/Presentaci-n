@@ -32,7 +32,7 @@ nav {
 
 .nav_menu {
     font-family: var(--Fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
@@ -43,10 +43,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap : 82px;
 }
 
 .presentacion-contenido {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -64,7 +65,7 @@ nav {
 }
 
 .Texto-parrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--Fuente-Montserrat);
 }
 
@@ -79,7 +80,7 @@ nav {
 .Titulo-enlaces {
     font-family: var(--Fuente-Kroma-One);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .Enlace_link_1,
@@ -93,7 +94,7 @@ nav {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -110,9 +111,33 @@ nav {
 .footer {
     color: var(--color-primario);
     background-color: var(--color-secundario);
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     font-family: var(--Fuente-Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+.Imagen{
+    width: 50%;
+}
+
+@media(max-width:1200px) {
+    .header{
+        padding: 10%;
+    }
+
+    .nav{
+        justify-content: center;
+    }
+    .presentacion-container{
+        flex-direction:column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion-contenido{
+        width: auto;
+    }
+
+
 }
