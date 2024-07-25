@@ -122,22 +122,40 @@ nav {
     width: 50%;
 }
 
-@media(max-width:1200px) {
-    .header{
+@media(max-width: 1200px) {
+    header {
         padding: 10%;
     }
 
-    .nav{
+    nav {
         justify-content: center;
     }
-    .presentacion-container{
-        flex-direction:column-reverse;
+
+    .presentacion-container {
+        flex-direction: column-reverse;
         padding: 5%;
+        align-items: center; /* Asegura que todo esté centrado */
     }
 
-    .presentacion-contenido{
+    .presentacion-contenido {
         width: auto;
+        align-items: center; /* Centra el contenido */
+        text-align: center; /* Centra el texto */
     }
 
+    .botones {
+        align-items: center; /* Alinea los botones al centro */
+    }
 
+    .Enlace_link_1,
+    .Enlace_link_2,
+    .Enlace_link_3 {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        max-width: 300px; /* Limita el ancho máximo para que no sea demasiado grande */
+    }
+
+    .Imagen {
+        width: 100%; /* La imagen ocupa todo el ancho disponible */
+        max-width: 400px; /* Limita el ancho máximo */
+    }
 }
