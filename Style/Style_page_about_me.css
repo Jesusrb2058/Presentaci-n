@@ -90,6 +90,19 @@ nav {
     .nav{
         justify-content: center;
     }
+
+    .nav-menu{
+        justify-content:center;
+    }
+
+    .Texto-inicio{
+        justify-content:center;
+    }
+
+    .titulo-a-destacar{
+        justify-content:center;
+    }
+
     .presentacion-container{
         flex-direction:column-reverse;
         padding: 5%;
